@@ -6,23 +6,28 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class TodoListItemImplTest {
 
-    protected  TodoListItemImpl todoItem;
+    protected TodoListItemImpl todoItem;
     protected String title;
 
+    TodoListItemImpl item;
     @BeforeAll
     public static void setUpGlobal() {
-
     }
 
     @BeforeEach
     public void setUp() {
         title = "Todo List Item for test";
-        todoItem = new TodoListItemImpl(title);
+        item = new TodoListItemImpl(title);
+    }
+
+    @Test
+    public void toggle_an_item() {
+        item.toggle();
+        Assertions.assertTrue(item.isToggled());
     }
 
     @Test
     public void todoItemIsNotNullAfterCreation() {
-
     }
 
     @Test

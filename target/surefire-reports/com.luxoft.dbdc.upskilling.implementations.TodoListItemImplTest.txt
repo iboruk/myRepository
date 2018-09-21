@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.luxoft.dbdc.upskilling.implementations.TodoListItemImplTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.036 sec <<< FAILURE! - in com.luxoft.dbdc.upskilling.implementations.TodoListItemImplTest
-itemHasAssignedTitleAfterCreation  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NullPointerException
-	at com.luxoft.dbdc.upskilling.implementations.TodoListItemImplTest.itemHasAssignedTitleAfterCreation(TodoListItemImplTest.java:30)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in com.luxoft.dbdc.upskilling.implementations.TodoListItemImplTest

@@ -25,5 +25,6 @@ public class TodoListItemImpl implements Toggllable {
     }
     @Override
     public void toggle() {
+        toggled = !toggled;
     }
 }
